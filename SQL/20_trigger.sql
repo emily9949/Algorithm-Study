@@ -1,6 +1,7 @@
 -- trigger
 delimiter //
 
+-- 	
 -- insert 시에  total_order_price 를 tbl_order 테이블에 계산해서 추가하는 트리거
 CREATE OR REPLACE TRIGGER after_order_menu_insert 
 	-- insert 이벤트가 발생하면 새로운 행이 new 로 들어옴
